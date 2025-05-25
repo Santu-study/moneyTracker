@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{
+            background-image:url(registrationimage.webp);
+            background-size:cover;
+
+        }
+        table{
+            background-color:blur;
+            border-radius:20px;
+            padding:10px;
+            margin:5px;
+            box-shadow:2px 2px 10px rgb(17, 17, 16);
+            border:none;
+        }
+        h2{
+            font-size:50px;
+            color:rgb(31, 31, 31);
+            text-shadow:none;
+            margin:5px;
+            padding:20px;
+            text-align: center;
+            text-decoration:underline;
+        }
+        input[type="username"],input[type="text"],input[type="father name"],inpur[type="mother name"],input[type="address"],input[type="email"],input[type="phone no"],input[type="otp"],input[type="password"],input[type="conform password"]{
+            width:300px;
+            height:50px;
+            border-radius:15px;
+            border-color:rgba(0, 109, 128, 0.719);
+            border-width:3px;
+            border-style:solid;
+            padding:1px;
+            text-size-adjust:20px;
+        }
+        lable{
+            font-size:25px;
+            color:rgb(129, 215, 244);
+            text-shadow:2px 2px 4px black;
+            margin:5px;
+            padding:3px;
+            text-align: center;
+        }
+        input[type="submit"],input[type="reset"]{
+            width:100px;
+            border-radius:15px;
+            background-color:rgb(8, 165, 232);
+            color:white;
+        }
+        p{
+            font-size:22px;
+            color:rgb(249, 253, 254);
+            text-shadow:2px 2px 4px black;
+        }
+        a{
+            font-size:22px;
+            color:rgb(38, 239, 12);
+        }
+        input[type="radio"]{
+            width:17px;
+            height:17px;
+        }
+        input[type="male"],input[type="female"],input[type="others"]{
+            width:15px;
+            height:15px;
+        }
+     </style>
+</head>
+<body>
+    <center>
+        <h2>Registration Form</h2>
+        <form action="money-mang.html" metod="get">
+            <table>
+                <tr>
+                    <td>
+                        <lable for="username" >Username:</lable>
+                    </td>
+                    <td>
+                        <input type="text" id="username"  placeholder="capital latter" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="gender">Gender:</lable>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender">male
+                        <input type="radio" name="gender">Female
+                        <input type="radio" name="gender">Others
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="father name" >Father Name:</lable>
+                    </td>
+                    <td>
+                        <input type="text" id="father name" placeholder="capital letter" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="mother name">Mother Name:</lable>
+                    </td>
+                    <td>
+                        <input type="text" id="mother name" placeholder="capital letter" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="address">Address:</lable>
+                    </td>
+                    <td>
+                        <input type="text" id="address" placeholder="Enter your address" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="email">Email:</lable>
+                    </td>
+                    <td>
+                        <input type="text" id="email" placeholder="example@gmail.com" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="phone no">Phone no:</lable>
+                    </td>
+                    <td>
+                        <input type="text" id="phone no" placeholder="Enter your phone no" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="password">Password:</lable>
+                    </td>
+                    <td>
+                        <input type="text" id="password" placeholder="Enter your password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="confirm password">Confirm Password:</lable>
+                    </td>
+                    <td>
+                        <input type="text" id="confirm password" placeholder="Enter your confirm password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td
+                        colspan="2" align="center">
+                       <input type="reset" value="reset">
+                       <input type="submit" value="registation">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                     <p>
+                        Already have an account?
+                        <a href="indexlogin.html">Login Here</a>
+                     </p>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>

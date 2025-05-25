@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Traker</title>
+    <style>
+        body{
+            background-image:url(3d-illustration-financial-management-concept-and-investment-free-photo.jpg);
+            background-size:cover;
+        }
+        h1,h3{
+            color:rgb(241, 246, 242);
+            text-shadow:2px 2px 4px black;
+            padding:5px;
+        }
+        input{
+            background-color:rgb(249, 245, 245);
+            border-radius:15px;
+            padding:10px;
+            margin:1px;
+            box-shadow:2px 2px 10px rgb(4, 4, 249);
+            border:none;
+        }
+        select{
+            background-color:rgb(249, 245, 245);
+            border-radius:15px;
+            padding:10px;
+            margin:5px;
+            box-shadow:2px 2px 10px rgb(4, 4, 249);
+            border:none;
+           
+        }
+        lable{
+            font-size:24px;
+            color:rgb(11, 139, 243);
+            padding:10px;
+            
+        }
+        option{
+            background-color:rgb(21, 21, 21);
+            color:rgb(224, 224, 11);
+            font-size:20px;
+            border-radius:15px;
+            padding:5px;
+        }
+        button{
+            background-color:red;
+            border-radius:5px;
+            font-size:20px;
+            color:white;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <center>
+        <h1><b>Money Traker</b></h1>
+        <h3>Track your expenses and income easily!</h3>
+      
+    </center>
+        <div class="input section">
+            <lable for="income type">Income:</lable>
+
+            <select id="income type" required>
+                <option value="salary">salary</option>
+                <option value="buisness">Buisness</option>
+                <option value="trading">Trading</option>
+                <opyion value="retail shop">Retail Shop</opyion>
+                <option value="other">Other</option>
+                
+            </select>
+            <lable for="income ammount">Income Ammount:</lable>
+            <input type="number" id="income ammount" placeholder="Enter ammount"required>
+            <lable for="expense type">Expenses:</lable>
+            <select id="expense type" required>
+                <option value="food">Food</option>
+                <option value="travel">Travel</option>
+                <option value="shoping">Shoping</option>
+                <option value="transport">Transport</option>
+                <option value="grocery">Grocery</option>
+                <option value="school fees">School Fees</option>
+                <option value="car/bike maintanence">Car/Bike maintanence</option>
+                <option value="medicine">Medicine</option>
+            </select>
+            <lable for="expense amount">Expense Amount</lable>
+            <input type="number" id="expense amount" placeholder="Enter amount" required>
+            <br><br>
+            <lable for="expense description">Expense Description:</lable>
+            <input type="text" id="expense description" placeholder="Enter description" required>
+            <lable for="date" >Date:</lable>
+            <input type="date" id="date">
+            <button id="add" onclick="add">ADD</button>
+            <button onclick="window.location.href='indexlogin.html'">Logout</button>
+        </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        input[type="submit"], input[type="reset"]{
+            background-color:rgb(8, 158, 239);
+            color:white;
+            padding:10px 20px;
+            border-radius:20px;
+            cursor:pointer;
+            font-size:16px;
+            width:150px;
+            
+        }
+         table{
+            background-color:blur;
+            border-radius:20px;
+            padding:10px;
+            margin:5px;
+            box-shadow:2px 2px 10px rgb(32, 31, 31);
+            border:none;
+
+        }
+        input[type="text"] {
+            width:300px;
+            padding:10px 20px;
+            border-radius:20px;
+            border:1px solid#0f0f0f;
+            font-size:16px;
+            cursor:pointer;
+            
+        }
+        input[type="pasword"]{
+            width:300px;
+            padding:10px 20px;
+            border:1px solid#ccc;
+            border-radius:20px;
+            cursor:pointer;
+            font-size:16px;
+        }
+        body{
+            background-image:url(loginimg.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment:fixed;
+            
+        }
+       h3 {
+            font-size: 24px; 
+            color: #f5f4f9; 
+            text-transform: uppercase; 
+            text-shadow: 2px 2px 4px #000000;
+            margin-bottom: 20px; 
+        }
+        P{
+            font-size:22px;
+            color:rgb(22, 28, 217);
+            margin:20px;
+        }
+        a{
+            font-size:22px;
+            color:rgb(237, 6, 160);
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <h3>Login Here</h3>
+        <form action="money-mang.html" method="get">
+            <table>
+                <tr>
+                    <td>
+                        <label for="username"></label>
+                    </td>
+                    <td>
+                        <input type="text" id="username" placeholder="username" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pasword"></label>
+                    </td>
+                    <td>
+                        <input type="pasword" id="pasword" placeholder="pasword" required>
+                    </td>
+                </tr>
+                 <tr>
+                    <td  colspan="2" align="center">
+                         <input type="submit" value="LOGIN"><br><br>
+                         <input type="reset" value="RESET">
+                        </td>
+                 </tr>
+                 <tr>
+                    <td colspan="2" align="center">
+                        <P>You have no account?
+                            <a href="indexregistration.html">Register</a>
+                        </P>
+                    </td>
+                 </tr>
+            </table>
+        </form>
+    </center>
+    
+</body>
+</html>
