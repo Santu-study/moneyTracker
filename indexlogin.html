@@ -33,7 +33,7 @@
             cursor:pointer;
             
         }
-        input[type="pasword"]{
+        input[type="password"]{
             width:300px;
             padding:10px 20px;
             border:1px solid#ccc;
@@ -72,22 +72,22 @@
 <body>
     <center>
         <h3>Login Here</h3>
-        <form action="money-mang.html" method="get">
+        <form action="login.php" method="POST">
             <table>
                 <tr>
                     <td>
                         <label for="username"></label>
                     </td>
                     <td>
-                        <input type="text" id="username" placeholder="username" required>
+                        <input type="text" id="username" name="username" placeholder="username" required>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label for="pasword"></label>
+                        <label for="password"></label>
                     </td>
                     <td>
-                        <input type="pasword" id="pasword" placeholder="pasword" required>
+                        <input type="password" id="password"  name="password" placeholder="password" required>
                     </td>
                 </tr>
                  <tr>

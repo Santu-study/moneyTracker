@@ -1,0 +1,27 @@
+/* Custom styles can go here to override or extend Bootstrap */
+
+body {
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+/* Example: Add some custom shadow to cards */
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Style for income/expense text in table */
+.text-success {
+    color: #198754 !important; /* Bootstrap success green */
+}
+
+.text-danger {
+    color: #dc3545 !important; /* Bootstrap danger red */
+}
